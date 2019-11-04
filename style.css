@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
 
 .avatar{
-    height: 240px;
-    width: 250px;
+    height: 300px;
+    width: 320px;
     border-radius: 50%;
 }
 body{
@@ -16,4 +16,7 @@ body{
 }
 .has-text-navy{
     color: #293242;
+}
+.heigth-1{
+    height: 1em;
 }
