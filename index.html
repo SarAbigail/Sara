@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -7,15 +7,18 @@
   <title>Sara Abigail ~ Front-end Developer & Diseñadora Publicitaria</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./imagenes/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./imagenes/favicon-16x16.png" sizes="16x16" />
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
 <body>
   <nav class="navbar is-transparent">
     <div class="navbar-brand">
-      <a class="navbar-item" href="">
-        <img src="" alt="" width="112" height="28">
-      </a>
+      <!-- <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112"
+            height="28">
+        </a> -->
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
         <span></span>
@@ -27,13 +30,19 @@
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control">
-              <a class="bd-tw-button button is-warning is-outlined" href="#about-me">Sobre mí</a>
+              <a class="bd-tw-button button is-warning is-outlined" href="#about-me">
+                Sobre mí
+              </a>
             </p>
             <p class="control">
-              <a class="button is-primary is-outlined" href="#projects">Proyectos</a>
+              <a class="button is-primary is-outlined" href="#projects">
+                Proyectos
+              </a>
             </p>
             <p class="control">
-              <a class="bd-tw-button button is-danger is-outlined" href="#contact-me">Contáctame</a>
+              <a class="bd-tw-button button is-danger is-outlined" href="#contact-me">
+                Contáctame
+              </a>
             </p>
           </div>
         </div>
@@ -46,14 +55,14 @@
       <div class="container">
         <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
           <div class="column m-auto">
-            <h2 class="title is-1 has-text-centered has-text-danger">Soy Sara Abigail</h2>
+            <p class="title is-1 has-text-centered has-text-danger">Soy Sara Abigail</p>
             <p class="subtitle has-text-centered has-text-navy">Front-end developer enamorada del código y el diseño
               visual.
             </p>
           </div>
           <div class="column">
             <figure class="avatar m-auto">
-              <img class="avatar" src="./imagenes/avatar.png" alt="Avatar Sara">
+              <img class="avatar" src="./imagenes/avatar.png">
             </figure>
           </div>
         </div>
@@ -75,26 +84,26 @@
           <div class="column">
             <h1 class="title is-4 has-text-centered">Habilidades Técnicas</h1>
             <p>HTML</p>
-            <progress class="progress is-primary" value="65" max="100">65</progress>
+            <progress class="progress is-primary" value="65" max="100">15%</progress>
             <p>CSS</p>
-            <progress class="progress is-primary" value="50" max="100">50</progress>
+            <progress class="progress is-primary" value="50" max="100">15%</progress>
             <p>JavaScript</p>
-            <progress class="progress is-primary" value="30" max="100">30</progress>
+            <progress class="progress is-primary" value="30" max="100">15%</progress>
             <p>Jest</p>
-            <progress class="progress is-primary" value="50" max="100">50</progress>
+            <progress class="progress is-primary" value="50" max="100">15%</progress>
             <p>Git/Github</p>
-            <progress class="progress is-primary" value="50" max="100">50</progress>
+            <progress class="progress is-primary" value="50" max="100">15%</progress>
           </div>
           <div class="column">
             <h1 class="title is-4 has-text-centered">Habilidades Blandas</h1>
             <p>Auto-aprendizaje</p>
-            <progress class="progress is-warning" value="90" max="100">90</progress>
+            <progress class="progress is-warning" value="90" max="100">75%</progress>
             <p>Trabajo en equipo</p>
-            <progress class="progress is-warning" value="95" max="100">95</progress>
+            <progress class="progress is-warning" value="95" max="100">75%</progress>
+            <p>Control de emociones</p>
+            <progress class="progress is-warning" value="95" max="100">75%</progress>
             <p>Paciencia</p>
-            <progress class="progress is-warning" value="100" max="100">100</progress>
-            <p>Perseverancia</p>
-            <progress class="progress is-warning" value="100" max="100">100</progress>
+            <progress class="progress is-warning" value="100" max="100">75%</progress>
           </div>
         </div>
       </div>
@@ -113,9 +122,9 @@
             <div class="tile">
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification is-primary">
-                  <h2 class="title is-4 has-text-centered">Data Lovers - Banco Mundial</h2>
+                  <p class="title is-4 has-text-centered">Data Lovers - Banco Mundial</p>
                   <figure class="image is-2by1">
-                    <img class="pad-bot-1" src="./imagenes/data-lovers.png" alt="Data Lovers">
+                    <img class="pad-bot-1" src="./imagenes/data-lovers.png">
                   </figure>
                   <p class="subtitle has-text-justified">Web que muestra y filtra estadística sobre población,
                     educación, género y trabajo de Perú, México, Chile y
@@ -132,9 +141,9 @@
               </div>
               <div class="tile is-parent">
                 <article class="tile is-child notification is-primary">
-                  <h2 class="title is-4 has-text-centered">Red Social - Hey Hallyu!</h2>
+                  <p class="title is-4 has-text-centered">Red Social - Hey Hallyu!</p>
                   <figure class="image is-2by1">
-                    <img class="pad-bot-1" src="./imagenes/red-social.png" alt="Red Social">
+                    <img class="pad-bot-1" src="./imagenes/red-social.png">
                   </figure>
                   <p class="subtitle has-text-justified">Red social para las fans de los dramas coreanos donde pueden
                     crear, comentar y dar likes a publicaciones.</p>
@@ -152,7 +161,7 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification is-primary">
-                <h2 class="title is-4">Librería - Markdown links</h2>
+                <p class="title is-4">Librería - Markdown links</p>
                 <p class="subtitle has-text-justified">Analiza links dentro de archivos markdown, también los valida y
                   muestra estadísticas tales como número de links y enlaces rotos.</p>
                 <a class="button is-warning" href="https://github.com/SarAbigail/md-links" target="_blank">
@@ -167,7 +176,7 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-primary">
               <div class="content">
-                <h2 class="title is-4 has-text-centered">Burguer Queen</h2>
+                <p class="title is-4 has-text-centered">Burguer Queen</p>
                 <p class="subtitle has-text-justified">Próximamente...</p>
                 <div class="content">
                   <a class="button is-danger" href="">Ver Demo</a>
@@ -193,6 +202,7 @@
         <h1 class="title is-2 pad-bot-1 has-text-centered has-text-navy">
           Contáctame
         </h1>
+
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger has-text-centered">
@@ -237,7 +247,7 @@
   </section>
 
   <footer>
-    <div class="hero is-warning height-1">
+    <div class="hero is-warning is-bold">
       <div class="hero-body content has-text-centered is-warning">
         <p>
           <strong>Bulma</strong> by <a href="#">SarAbigail</a>. The source code is licensed
