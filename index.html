@@ -14,21 +14,15 @@
 
 <body>
   <nav class="navbar is-transparent">
-    <div class="navbar-brand">
-      <!-- <a class="navbar-item" href="https://bulma.io">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112"
-            height="28">
-        </a> -->
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <div class="field is-grouped">
+          <div class="field is-grouped is-grouped-centered">
             <p class="control">
               <a class="bd-tw-button button is-warning is-outlined" href="#about-me">
                 Sobre mí
@@ -59,11 +53,18 @@
             <p class="subtitle has-text-centered has-text-navy">Front-end developer enamorada del código y el diseño
               visual.
             </p>
+            
           </div>
           <div class="column">
             <figure class="avatar m-auto">
-              <img class="avatar" src="./imagenes/avatar.png">
+              <a href="https://www.linkedin.com/in/sara-abigail/" target="_blank"><img class="avatar"
+                  src="./imagenes/avatar.png" alt="avatar"></a>
             </figure>
+            <div class="field is-grouped is-grouped-centered">
+                <a class="control" href="mailto:samihimezu@gmail.com"><i class="fas fa-envelope fa-2x has-text-warning"></i></a>
+                <a class="control" href="https://www.linkedin.com/in/sara-abigail/"><i
+                    class="fab fa-2x fa-github has-text-warning"></i></a>
+              </div>
           </div>
         </div>
       </div>
@@ -81,29 +82,36 @@
           <br>No tengo miedo de enfrentarme a nuevos retos
         </h2>
         <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
-          <div class="column">
+          <div class="column is-centered">
             <h1 class="title is-4 has-text-centered">Habilidades Técnicas</h1>
             <p>HTML</p>
-            <progress class="progress is-primary" value="65" max="100">15%</progress>
+            <progress class="progress is-primary pro" value="65" max="100">65%</progress>
             <p>CSS</p>
-            <progress class="progress is-primary" value="50" max="100">15%</progress>
+            <progress class="progress is-primary pro" value="50" max="100">50%</progress>
             <p>JavaScript</p>
-            <progress class="progress is-primary" value="30" max="100">15%</progress>
-            <p>Jest</p>
-            <progress class="progress is-primary" value="50" max="100">15%</progress>
+            <progress class="progress is-primary pro" value="30" max="100">30%</progress>
             <p>Git/Github</p>
-            <progress class="progress is-primary" value="50" max="100">15%</progress>
+            <progress class="progress is-primary pro" value="35" max="100">35%</progress>
+            <p>Jest</p>
+            <progress class="progress is-primary pro" value="15" max="100">15%</progress>
+            <p>React</p>
+            <progress class="progress is-primary pro" value="15" max="100">15%</progress>
+
           </div>
           <div class="column">
             <h1 class="title is-4 has-text-centered">Habilidades Blandas</h1>
-            <p>Auto-aprendizaje</p>
-            <progress class="progress is-warning" value="90" max="100">75%</progress>
+            <p>Auto aprendizaje</p>
+            <progress class="progress is-warning pro" value="95" max="100">95%</progress>
             <p>Trabajo en equipo</p>
-            <progress class="progress is-warning" value="95" max="100">75%</progress>
-            <p>Control de emociones</p>
-            <progress class="progress is-warning" value="95" max="100">75%</progress>
+            <progress class="progress is-warning pro" value="95" max="100">95%</progress>
+            <p>Perseverancia</p>
+            <progress class="progress is-warning pro" value="100" max="100">100%</progress>
             <p>Paciencia</p>
-            <progress class="progress is-warning" value="100" max="100">75%</progress>
+            <progress class="progress is-warning pro" value="100" max="100">100%</progress>
+            <p>Honestidad</p>
+            <progress class="progress is-warning pro" value="100" max="100">100%</progress>
+            <p>Empatía</p>
+            <progress class="progress is-warning pro" value="80" max="100">80%</progress>
           </div>
         </div>
       </div>
@@ -124,7 +132,7 @@
                 <article class="tile is-child notification is-primary">
                   <p class="title is-4 has-text-centered">Data Lovers - Banco Mundial</p>
                   <figure class="image is-2by1">
-                    <img class="pad-bot-1" src="./imagenes/data-lovers.png">
+                    <img class="pad-bot-1" src="./imagenes/data-lovers.png" alt="Portada del banco mundial">
                   </figure>
                   <p class="subtitle has-text-justified">Web que muestra y filtra estadística sobre población,
                     educación, género y trabajo de Perú, México, Chile y
@@ -143,7 +151,7 @@
                 <article class="tile is-child notification is-primary">
                   <p class="title is-4 has-text-centered">Red Social - Hey Hallyu!</p>
                   <figure class="image is-2by1">
-                    <img class="pad-bot-1" src="./imagenes/red-social.png">
+                    <img class="pad-bot-1" src="./imagenes/red-social.png" alt="Portada de la red social Hey Hallyu!">
                   </figure>
                   <p class="subtitle has-text-justified">Red social para las fans de los dramas coreanos donde pueden
                     crear, comentar y dar likes a publicaciones.</p>
@@ -202,7 +210,6 @@
         <h1 class="title is-2 pad-bot-1 has-text-centered has-text-navy">
           Contáctame
         </h1>
-
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child notification is-danger has-text-centered">
@@ -211,7 +218,7 @@
               </span>
               <p class=""></p>
               <a class="subtitle has-text-centered" href="https://www.linkedin.com/in/sara-abigail/"
-                target="_blank">/sara-abigail</a>
+                target="_blank">sara-abigail</a>
             </article>
           </div>
           <div class="tile is-parent">
@@ -219,7 +226,6 @@
               <span class="icon is-large">
                 <i class="fas fa-envelope fa-3x"></i>
               </span>
-              <p class=""></p>
               <p class="subtitle is-6 has-text-centered">samihimezu@gmail.com</p>
             </article>
           </div>
@@ -228,7 +234,6 @@
               <span class="icon is-large">
                 <i class="fas fa-mobile-alt fa-3x"></i>
               </span>
-              <!-- <p class=""></p> -->
               <p class="subtitle has-text-centered">945162181</p>
             </article>
           </div>
@@ -238,7 +243,7 @@
                 <i class="fab fa-github fa-3x"></i>
               </span>
               <p class=""></p>
-              <a class="subtitle has-text-centered" href="https://github.com/SarAbigail" target="_blank">/SarAbigail</a>
+              <a class="subtitle has-text-centered" href="https://github.com/SarAbigail" target="_blank">SarAbigail</a>
             </article>
           </div>
         </div>
@@ -247,7 +252,7 @@
   </section>
 
   <footer>
-    <div class="hero is-warning is-bold">
+    <div class="hero is-warning">
       <div class="hero-body content has-text-centered is-warning">
         <p>
           <strong>Bulma</strong> by <a href="#">SarAbigail</a>. The source code is licensed
