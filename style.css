@@ -23,3 +23,6 @@ body{
 .pro{
     width: 90%;
 }
+.br-1{
+    border-radius: .7em;
+}
